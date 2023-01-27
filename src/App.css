@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Inconsolata', monospace;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title {
+  font-family: 'Inconsolata', monospace;
+  margin: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.text-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 586px;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.image {
+  height: 447.4263916015625px;
+  width: 539.2236938476562px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.span-title {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 95px;
+  letter-spacing: -0.035em;
+  text-align: left;
+  margin: 20px;
+}
+
+.span-body {
+  font-family: Space Mono;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+  width: 381px;
+  margin: 20px;
+}
+
+.button {
+  height: 68px;
+  width: 216px;
+  border-radius: 0px;
+  font-family: Space Mono;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: -0.035em;
+  background: #333333;
+  color: #FFFFFF;
+  margin: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
   }
 }
