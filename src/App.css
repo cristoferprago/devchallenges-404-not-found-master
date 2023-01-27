@@ -7,14 +7,14 @@
 
 .title {
   font-family: 'Inconsolata', monospace;
-  margin: 50px;
+  padding: 50px;
 }
 
 .container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin: 50px;
+  padding: 50px;
 }
 
 .text-container {
@@ -35,7 +35,7 @@
   line-height: 95px;
   letter-spacing: -0.035em;
   text-align: left;
-  margin: 20px;
+  padding: 20px;
 }
 
 .span-body {
@@ -45,7 +45,7 @@
   line-height: 36px;
   letter-spacing: -0.035em;
   width: 381px;
-  margin: 20px;
+  padding: 20px;
 }
 
 .button {
@@ -59,7 +59,7 @@
   letter-spacing: -0.035em;
   background: #333333;
   color: #FFFFFF;
-  margin: 20px;
+  padding: 20px;
 }
 
 @media only screen and (max-width: 600px) {
