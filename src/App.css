@@ -25,7 +25,7 @@
 }
 
 .image {
-  height: 447.4263916015625px;
+  /* height: 447.4263916015625px; */
   width: 539.2236938476562px;
 }
 
@@ -44,7 +44,7 @@
   font-weight: 400;
   line-height: 36px;
   letter-spacing: -0.035em;
-  width: 381px;
+  /* width: 381px; */
   margin: 20px;
 }
 
@@ -73,5 +73,13 @@
 
   .image{
     width: 100%;
+  }
+
+  .span-title{
+    font-size: 48px; 
+  }
+
+  .span-body{
+    font-size: 18px;
   }
 }
